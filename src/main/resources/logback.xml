@@ -7,11 +7,11 @@
         </encoder>
     </appender>
 
-    <logger name = "com" level = "all" additivity = "false" >
+    <logger name = "com" level = "debug" additivity = "false" >
         <appender-ref ref = "APPENDER-CONSOLE" />
     </logger>
 
-    <root level = "all">
+    <root level = "debug">
         <appender-ref ref = "APPENDER-CONSOLE" />
     </root>
 
